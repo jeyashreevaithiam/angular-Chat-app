@@ -1,0 +1,8 @@
+app-rooms {
+  float: left;
+  width: 20%;
+}
+app-users {
+  float: right;
+  width: 20%;
+}

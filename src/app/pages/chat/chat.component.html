@@ -1,0 +1,14 @@
+<h1>Chat</h1>
+
+<ul>
+    <li *ngFor="let mess of msgList ">
+        {{mess.message}}
+    </li>
+</ul>
+
+<form (ngSubmit)="handleForm()">
+
+    <input name="message" [(ngModel)]="message">
+
+    <input type="submit" name="Add">
+</form>
