@@ -6,7 +6,7 @@ import { ConnectComponent } from './pages/connect/connect.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'discord/1', pathMatch: 'full' },
-  { path: 'discord/:roomId', component: DiscordComponent },
+  { path: 'discord/:id', component: DiscordComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'connect', component: ConnectComponent },
 ];
